@@ -13,9 +13,9 @@
 # GitHub username
 USERNAME=chris-prener
 # GitHub repo
-REPO=mcat
+REPO=barriers
 # Name of the branch containing the Hugo source files.
-SOURCE=barriers
+SOURCE=sources
 
 msg() {
     printf "\033[1;32m :: %s\n\033[0m" "$1"
