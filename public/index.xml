@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>St. Louis Barriers Project</title>
-    <link>/barriers/</link>
+    <link>https://chris-prener.github.io/barriers/</link>
     <description>Recent content on St. Louis Barriers Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/barriers/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chris-prener.github.io/barriers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lecture 01 - Society, Culture, and Health</title>
-      <link>/barriers/lecture01/</link>
+      <link>https://chris-prener.github.io/barriers/lecture01/</link>
       <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/barriers/lecture01/</guid>
+      <guid>https://chris-prener.github.io/barriers/lecture01/</guid>
       <description> Lecture Slides  </description>
     </item>
     
     <item>
       <title>Lecture 02 - Relationships and Behavior</title>
-      <link>/barriers/lecture02/</link>
+      <link>https://chris-prener.github.io/barriers/lecture02/</link>
       <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/barriers/lecture02/</guid>
+      <guid>https://chris-prener.github.io/barriers/lecture02/</guid>
       <description> Lecture Slides  </description>
     </item>
     
     <item>
       <title>Lecture 03 - Identity and the Individual</title>
-      <link>/barriers/lecture03/</link>
+      <link>https://chris-prener.github.io/barriers/lecture03/</link>
       <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/barriers/lecture03/</guid>
+      <guid>https://chris-prener.github.io/barriers/lecture03/</guid>
       <description> Lecture Slides  </description>
     </item>
     
     <item>
       <title>Lecture 04 - Thought and Emotion</title>
-      <link>/barriers/lecture04/</link>
+      <link>https://chris-prener.github.io/barriers/lecture04/</link>
       <pubDate>Wed, 28 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/barriers/lecture04/</guid>
+      <guid>https://chris-prener.github.io/barriers/lecture04/</guid>
       <description> Lecture Slides  </description>
     </item>
     
     <item>
       <title>Lecture 05 - Biological Correlates of Psychology</title>
-      <link>/barriers/lecture05/</link>
+      <link>https://chris-prener.github.io/barriers/lecture05/</link>
       <pubDate>Wed, 28 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/barriers/lecture05/</guid>
+      <guid>https://chris-prener.github.io/barriers/lecture05/</guid>
       <description> Lecture Slides  </description>
     </item>
     
     <item>
       <title>Credits</title>
-      <link>/barriers/credits/</link>
+      <link>https://chris-prener.github.io/barriers/credits/</link>
       <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/barriers/credits/</guid>
+      <guid>https://chris-prener.github.io/barriers/credits/</guid>
       <description> This website is built with the R package Blogdown and Hugo using a fork of the Strata theme.
 Photo credits All stock imagery used on this site is sourced from Unsplash.
  Cover photo by Daan Stevens Homepage banner photo by Piron Guillaume  </description>
@@ -69,10 +69,10 @@ Photo credits All stock imagery used on this site is sourced from Unsplash.
     
     <item>
       <title>License</title>
-      <link>/barriers/license/</link>
+      <link>https://chris-prener.github.io/barriers/license/</link>
       <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/barriers/license/</guid>
+      <guid>https://chris-prener.github.io/barriers/license/</guid>
       <description>Copyright &amp;copy; 2017-2018 Christopher G. Prener
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 This is a human-readable summary of (and not a substitute for) the license.
