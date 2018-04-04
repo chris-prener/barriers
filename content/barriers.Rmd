@@ -8,6 +8,8 @@ output:
 
 ## Interactive Map
 Use the map below to explore the locations of current and former barriers in St. Louis. The numbered map symbols  indicate the total number of points being "clustered" together to make the map easier to read when zoomed out. You can click on them to zoom into that area and reveal individual barriers. **If you find an intersection that is missing a barrier, or see a closed intersection that is now open, please [let us know](mailto:chris.prener@slu.edu)!** 
+
+**As we prepare for launching the data, we are providing only a limited preview of barriers in the Shaw neighborhood.**
 <p> </p>
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(here)

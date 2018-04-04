@@ -93,11 +93,6 @@ paginate = 10
 	weight = 21
 	
 [[menu.main]]
-	name = "crime deterrence"
-	url  = "/crime1"
-	weight = 22
-	
-[[menu.main]]
 	name = "research team"
 	url  = "/team"
 	weight = 44
