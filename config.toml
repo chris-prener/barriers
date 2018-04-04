@@ -61,7 +61,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "Research on Systematic Street Closures in St. Louis, Missouri"
-		content = "St. Louis has a tremendously fractured street grid, with a variety of physical structures used to create cul-de-sacs or otherwise block traffic from using streets. However, precisely how fractured the city's street grid is remains an open question - [the City does not keep a list of closures](http://www.stltoday.com/news/local/metro/in-a-city-where-street-closings-are-common-schoemehl-pots/article_c191cf1a-4967-5f58-80f4-3d8e3189790f.html). The *Street Not Thru* project began as an effort to document the number of street closures in the city. We have since expanded our efforts to include research studying the demographic patterns that gave rise to the barriers, their effectiveness as crime deterrents, and the consequences of closed streets."
+		content = "The City of St. Louis (which is an independent city separate from St. Louis County) has a tremendously fractured street grid, with a variety of physical structures used to create cul-de-sacs or otherwise block traffic from using streets. However, precisely how fractured the city's street grid is remains an open question - [the City does not keep a list of closures](http://www.stltoday.com/news/local/metro/in-a-city-where-street-closings-are-common-schoemehl-pots/article_c191cf1a-4967-5f58-80f4-3d8e3189790f.html). The *Street Not Thru* project began as an effort to document the number of street closures in the city. We have since expanded our efforts to include research studying the demographic patterns that gave rise to the barriers, their effectiveness as crime deterrents, and the consequences of closed streets."
 
 
 	[params.portfolio]
@@ -97,7 +97,3 @@ paginate = 10
 	url  = "/team"
 	weight = 44
 	
-[[menu.main]]
-	name = "license"
-	url  = "/license"
-	weight = 45
