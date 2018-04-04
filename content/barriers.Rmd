@@ -1,0 +1,22 @@
+---
+date: 2018-04-02
+title: Barrier Locations
+weight: 21
+output:
+  blogdown::html_page
+---
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(here)
+library(leaflet)
+library(sf)
+
+load(file = here("static", "shawBarriers.rda"))
+
+leaflet(width = '100%', height = '500pt') %>% 
+  addProviderTiles(providers$CartoDB.Positron) %>% 
+  addMarkers(data = shawBarriers, 
+             clusterOptions = markerClusterOptions(),
+             popup = paste("Barrier: ", shawBarriers$BarrierID, "<br>",
+                           "Description: ", shawBarriers$Descrip, "<br>"))
+```

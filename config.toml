@@ -30,8 +30,10 @@ paginate = 10
 	[params.sidebar]
 		# Replace the avatar with a picture of your own under static/images
 		avatar = ""
+		
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "*Street Not Through*"
+		bio = "*Street Not Through*: \rSt. Louis Barriers Project"
+		
 		# The icons will be shown if you enter your username
 		twitter = ""
 		github = "chris-prener"
@@ -41,13 +43,13 @@ paginate = 10
 		googleplus = ""
 		flickr = ""
 		linkedin = ""
+		
 		# homepage url
 		home="https://chris-prener.github.io/"
 		
 		copyright = [
-			"&copy; 2017-2018 [CC-BY-SA 4.0](/mcat/license)",
+			"&copy; 2017-2018 [CC-BY-SA 4.0](/barriers/license)",
 			"Design: [HTML5 UP](//html5up.net)",
-			"Cover Image: [M. Alizade](https://unsplash.com/@mohamadaz?utm_medium=referral)"
 		]
 
   [params.avatar]
@@ -59,7 +61,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "Research on Systematic Street Closures in St. Louis, Missouri"
-		content = "St. Louis has a tremendously fractured street grid, with a variety of physical structures used to create cul-de-sacs or otherwise block traffic from using streets. However, precisely how fractured the city's street grid is remains an open question. [The City does not keep a list of closures](http://www.stltoday.com/news/local/metro/in-a-city-where-street-closings-are-common-schoemehl-pots/article_c191cf1a-4967-5f58-80f4-3d8e3189790f.html). The *Street Not Through* project began as an effort to document the number of street closures in the city. We have since expanded our efforts to include research studying the demographic patterns that gave rise to the barriers, their effectiveness as crime deturrants, and the consequences of closed streets."
+		content = "St. Louis has a tremendously fractured street grid, with a variety of physical structures used to create cul-de-sacs or otherwise block traffic from using streets. However, precisely how fractured the city's street grid is remains an open question - [the City does not keep a list of closures](http://www.stltoday.com/news/local/metro/in-a-city-where-street-closings-are-common-schoemehl-pots/article_c191cf1a-4967-5f58-80f4-3d8e3189790f.html). The *Street Not Through* project began as an effort to document the number of street closures in the city. We have since expanded our efforts to include research studying the demographic patterns that gave rise to the barriers, their effectiveness as crime deterrents, and the consequences of closed streets."
 
 
 	[params.portfolio]
