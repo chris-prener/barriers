@@ -6,7 +6,7 @@ weight: 20
 
 While most cities use a variety of measures to control traffic, including speed limits, one-way streets, stop signs, and traffic lights, cars remain generally free to make turns at intersections (as long as there are no signs preventing, for example, no left-hand turns). A "typical" intersection of two streets with two-way traffic looks something like this:
 <p> </p>
-<img src="/images/open.png" class="image fit">
+<img src="../images/open.png" class="image fit">
 
 This configuration is what we will refer to as an "open" street grid, where traffic is generally un-restricted in terms of the ability to turn at intersections.
 
