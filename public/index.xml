@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>&#39;Street Not Through&#39;: St. Louis Barriers Project</title>
-    <link>https://chris-prener.github.io/barriers/</link>
+    <link>/barriers/</link>
     <description>Recent content on &#39;Street Not Through&#39;: St. Louis Barriers Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://chris-prener.github.io/barriers/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/barriers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Background</title>
-      <link>https://chris-prener.github.io/barriers/background/</link>
+      <link>/barriers/background/</link>
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://chris-prener.github.io/barriers/background/</guid>
-      <description>Heading  The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</description>
+      <guid>/barriers/background/</guid>
+      <description>Heading The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</description>
     </item>
     
     <item>
       <title>Barrier Locations</title>
-      <link>https://chris-prener.github.io/barriers/barriers/</link>
+      <link>/barriers/barriers/</link>
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://chris-prener.github.io/barriers/barriers/</guid>
+      <guid>/barriers/barriers/</guid>
       <description>{&#34;x&#34;:{&#34;options&#34;:{&#34;crs&#34;:{&#34;crsClass&#34;:&#34;L.CRS.EPSG3857&#34;,&#34;code&#34;:null,&#34;proj4def&#34;:null,&#34;projectedBounds&#34;:null,&#34;options&#34;:{}}},&#34;calls&#34;:[{&#34;method&#34;:&#34;addProviderTiles&#34;,&#34;args&#34;:[&#34;CartoDB.Positron&#34;,null,null,{&#34;errorTileUrl&#34;:&#34;&#34;,&#34;noWrap&#34;:false,&#34;zIndex&#34;:null,&#34;unloadInvisibleTiles&#34;:null,&#34;updateWhenIdle&#34;:null,&#34;detectRetina&#34;:false,&#34;reuseTiles&#34;:false}]},{&#34;method&#34;:&#34;addMarkers&#34;,&#34;args&#34;:[[38.6114347447095,38.6114212500337,38.6129031741124,38.6138800004624,38.6123499998192,38.6149917964049,38.6170446153578,38.6096649997299,38.6111585934018,38.6137363169815,38.6172633092174,38.614543429218,38.6088273115963,38.6102986623025,38.6150249995706,38.6158011815998,38.610565066761,38.6120256469512],[-90.2414240573264,-90.2412811228742,-90.2569760228847,-90.2566530004556,-90.2405409998613,-90.2565790636382,-90.2478123523152,-90.2416799997915,-90.2573410884629,-90.2429468245934,-90.2504152665338,-90.2428263374446,-90.2421532933983,-90.2575120235159,-90.2474469998498,-90.2563002234613,-90.2416333672202,-90.2571552487215],null,null,null,{&#34;clickable&#34;:true,&#34;draggable&#34;:false,&#34;keyboard&#34;:true,&#34;title&#34;:&#34;&#34;,&#34;alt&#34;:&#34;&#34;,&#34;zIndexOffset&#34;:0,&#34;opacity&#34;:1,&#34;riseOnHover&#34;:false,&#34;riseOffset&#34;:250},[&#34;Barrier: 136 Description: NA &#34;,&#34;Barrier: 137 Description: NA &#34;,&#34;Barrier: 138 Description: NA &#34;,&#34;Barrier: 140 Description: NA &#34;,&#34;Barrier: 139 Description: NA &#34;,&#34;Barrier: 145 Description: NA &#34;,&#34;Barrier: 310 Description: NA &#34;,&#34;Barrier: 146 Description: NA &#34;,&#34;Barrier: 147 Description: NA &#34;,&#34;Barrier: 312 Description: NA &#34;,&#34;Barrier: 148 Description: NA &#34;,&#34;Barrier: 313 Description: NA &#34;,&#34;Barrier: 129 Description: NA &#34;,&#34;Barrier: 130 Description: 4200-block of Botanical Ave at Tower Grove Ave &#34;</description>
     </item>
     
     <item>
       <title>Lecture 02 - Relationships and Behavior</title>
-      <link>https://chris-prener.github.io/barriers/crime1/</link>
+      <link>/barriers/crime1/</link>
       <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://chris-prener.github.io/barriers/crime1/</guid>
+      <guid>/barriers/crime1/</guid>
       <description> Lecture Slides  </description>
     </item>
     
     <item>
       <title>Credits</title>
-      <link>https://chris-prener.github.io/barriers/team/</link>
+      <link>/barriers/team/</link>
       <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://chris-prener.github.io/barriers/team/</guid>
+      <guid>/barriers/team/</guid>
       <description> This website is built with the R package Blogdown and Hugo using a fork of the Strata theme.
 Photo credits All stock imagery used on this site is sourced from Unsplash.
  Cover photo by Daan Stevens Homepage banner photo by Piron Guillaume  </description>
@@ -51,10 +51,10 @@ Photo credits All stock imagery used on this site is sourced from Unsplash.
     
     <item>
       <title>License</title>
-      <link>https://chris-prener.github.io/barriers/license/</link>
+      <link>/barriers/license/</link>
       <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://chris-prener.github.io/barriers/license/</guid>
+      <guid>/barriers/license/</guid>
       <description>Copyright &amp;copy; 2017-2018 Christopher G. Prener
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 This is a human-readable summary of (and not a substitute for) the license.
