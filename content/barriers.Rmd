@@ -16,27 +16,9 @@ library(sf)
 
 load(file = here("static", "allBarriers.rda"))
 
-getColor <- function(barriers) {
-  sapply(allBarriers$Status, function(Status) {
-  if(Status == "open") {
-    "green"
-  } else if(Status == "unknown" | Status == "redeveloped") {
-    "orange"
-  } else {
-    "red"
-  } })
-}
-
-icons <- awesomeIcons(
-  icon = 'ios-close',
-  iconColor = 'black',
-  library = 'ion',
-  markerColor = getColor(allBarriers)
-)
-
 leaflet(width = '100%', height = '450pt') %>% 
   addProviderTiles(providers$CartoDB.Positron) %>% 
-  addAwesomeMarkers(data = allBarriers, icon=icons,
+  addMarkers(data = allBarriers,
              clusterOptions = markerClusterOptions(),
              popup = paste("Barrier: ", allBarriers$BarrierID, "<br>",
                            "Status: ", allBarriers$Status, "<br>",
