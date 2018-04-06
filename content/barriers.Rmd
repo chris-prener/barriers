@@ -1,5 +1,5 @@
 ---
-date: 2018-04-04
+date: 2018-04-06
 title: Barrier Locations
 weight: 21
 output:

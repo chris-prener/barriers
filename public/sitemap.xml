@@ -2,38 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://chris-prener.github.io/barriers/background/</loc>
+    <loc>/barriers/background/</loc>
     <lastmod>2018-04-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chris-prener.github.io/barriers/barriers/</loc>
-    <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+    <loc>/barriers/barriers/</loc>
+    <lastmod>2018-04-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chris-prener.github.io/barriers/team/</loc>
-    <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+    <loc>/barriers/team/</loc>
+    <lastmod>2018-04-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chris-prener.github.io/barriers/license/</loc>
+    <loc>/barriers/license/</loc>
     <lastmod>2018-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chris-prener.github.io/barriers/</loc>
+    <loc>/barriers/</loc>
     <lastmod>2018-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://chris-prener.github.io/barriers/categories/</loc>
+    <loc>/barriers/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://chris-prener.github.io/barriers/tags/</loc>
+    <loc>/barriers/tags/</loc>
     <priority>0</priority>
   </url>
   
