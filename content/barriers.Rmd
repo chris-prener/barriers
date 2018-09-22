@@ -1,5 +1,5 @@
 ---
-date: 2018-04-06
+date: 2018-09-21
 title: Barrier Locations
 weight: 21
 output:
@@ -7,7 +7,7 @@ output:
 ---
 
 ## Interactive Map
-Use the map below to explore the locations of current and former barriers in St. Louis. The numbered map symbols  indicate the total number of points being "clustered" together to make the map easier to read when zoomed out. You can click on them to zoom into that area and reveal individual barriers. **If you find an intersection that is missing a barrier, or see a closed intersection that is now open, please let us know [via email](mailto:chris.prener@slu.edu) or by [opening an issue on our GitHub page](https://github.com/chris-prener/barriers-data/issues)!** 
+Use the map below to explore the locations of current (red) and former (green) barriers in St. Louis. The numbered map symbols  indicate the total number of points being "clustered" together to make the map easier to read when zoomed out. You can click on them to zoom into that area and reveal individual barriers. **If you find an intersection that is missing a barrier, or see a closed intersection that is now open, please let us know [via email](mailto:chris.prener@slu.edu) or by [opening an issue on our GitHub page](https://github.com/chris-prener/barriers-data/issues)!** 
 <p> </p>
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(here)
@@ -16,9 +16,27 @@ library(sf)
 
 load(file = here("static", "allBarriers.rda"))
 
+getColor <- function(barriers) {
+  sapply(allBarriers$Status, function(Status) {
+  if(Status == "open") {
+    "green"
+  } else if(Status == "closed") {
+    "red"
+  } else {
+    "grey"
+  } })
+}
+
+icons <- awesomeIcons(
+  icon = 'ios-close',
+  iconColor = 'black',
+  library = 'ion',
+  markerColor = getColor(allBarriers)
+)
+
 leaflet(width = '100%', height = '450pt') %>% 
   addProviderTiles(providers$CartoDB.Positron) %>% 
-  addMarkers(data = allBarriers,
+  addAwesomeMarkers(data = allBarriers, icon=icons,
              clusterOptions = markerClusterOptions(),
              popup = paste("Barrier: ", allBarriers$BarrierID, "<br>",
                            "Status: ", allBarriers$Status, "<br>",
@@ -27,11 +45,11 @@ leaflet(width = '100%', height = '450pt') %>%
 <p> </p>
 
 ## Download Barrier Data
-The location data [are available via GitHub](https://github.com/chris-prener/barriers-data) in three formats: 
+These location data [are available via GitHub](https://github.com/chris-prener/barriers-data) in four formats: 
 
 * a [`.csv`](https://en.wikipedia.org/wiki/Comma-separated_values) table that can be opened by spreadsheet applications and statistical software, 
 * a `.shp` ([ESRI shapefile](https://en.wikipedia.org/wiki/Shapefile)) that can be opened by GIS applications, and 
-* a [`.geoJSON`](https://en.wikipedia.org/wiki/GeoJSON) file that can also be opened by GIS tools. 
+* [`.geoJSON`](https://en.wikipedia.org/wiki/GeoJSON) and [`.gpkg`](https://en.wikipedia.org/wiki/GeoPackage) files that can also be opened by GIS tools. 
 
 These data are released under an [Open Data Commons Attribution License (ODC-By)](http://opendatacommons.org/licenses/by/1.0/), which is a permissive license that allows the data to be widely reused as long as attribution is provided. The data will be subject to regular updates. We also plan to release additional data about the barriers as we proceed with our project, so please check back often!
 
@@ -45,5 +63,4 @@ During the summer of 2017, two new students - [Abbey Block](/team) and [Abby Cur
 A final round of updates, with additional new barriers identified, was completed early in the spring of 2018 by principal investigator [Christopher Prener](/team). These newest barriers identified were located using a combination of Google Street View imagery, satellite data, and block-level shapefiles from the City of St. Louis.
 
 ## Future Plans
-A number of barriers currently in our data set were not visited during the fieldwork completed in summer 2017. We plan on conducting another round of fieldwork during the summer of 2018 to visit barriers that have only been verified using Google products or to visit barriers identified by receiving feedback from the publication of these data on this site.
-
+A number of barriers currently in our data set were not visited during the fieldwork completed in summer 2017. We plan on conducting another round of fieldwork during the spring of 2019 to visit barriers that have only been verified using Google products or to visit barriers identified by receiving feedback from the publication of these data on this site.
