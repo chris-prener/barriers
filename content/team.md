@@ -12,8 +12,8 @@ weight: 44
 ## Research Team Members
 The following students have contributed to the *Streets Not Thru* project:
 
-- **Abbey Block**, Anthropology B.A. '19 - conducted fieldwork checking barrier locations and conditions during summer 2017
-- **Abby Curran**, Sociology B.A. '19 - conducted fieldwork checking barrier locations and conditions during summer 2017
+- **Abby Block**, Anthropology B.A. '19 - conducted fieldwork checking barrier locations and conditions during summer 2017
+- **Abbey Curran**, Sociology B.A. '19 - conducted fieldwork checking barrier locations and conditions during summer 2017
 - **Andrew Smith**, Sociology & GIS B.A. '19 - geolocated the barriers identified in the [Waldron paper](https://www.scribd.com/document/31154170/Streets-Not-Through-Analysis-of-the-Blockages-and-Barricades-to-the-St-Louis-Street-Network)
 - **Cree Foeller**, Biomedical Engineering B.S. '18 - conducted fieldwork checking barrier locations and conditions during summer 2017; currently involved in software engineering to make St. Louis crime data easier to use for *Streets Not Thru* and other projects
 - **Jeffrey Meyer**, Sociology & GIS B.S. '18 - digitized the original list of barriers from the [Waldron paper](https://www.scribd.com/document/31154170/Streets-Not-Through-Analysis-of-the-Blockages-and-Barricades-to-the-St-Louis-Street-Network)
