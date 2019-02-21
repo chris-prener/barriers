@@ -56,7 +56,9 @@ leaflet(width = '100%', height = '450pt') %>%
   )
 ```
 <p> </p>
-There are a total of 325 barriers identified on the map above:
+
+## Barrier Status
+There are a total of 325 barriers identified on the map above. The table below provides a breakdown of these barriers by status:
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(janitor)
 library(dplyr)
