@@ -23,7 +23,7 @@
     <item>
       <title>Barrier Locations</title>
       <link>/barriers/barriers/</link>
-      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/barriers/barriers/</guid>
       <description>Interactive Map Use the map below to explore the locations of current (red) and former (green) barriers in St. Louis. The numbered map symbols indicate the total number of points being “clustered” together to make the map easier to read when zoomed out. You can click on them to zoom into that area and reveal individual barriers. If you find an intersection that is missing a barrier, or see a closed intersection that is now open, please let us know via email or by opening an issue on our GitHub page!</description>
