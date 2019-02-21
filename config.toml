@@ -65,8 +65,22 @@ paginate = 10
 
 
 	[params.portfolio]
-		hide  = true
-		title = "Recent Work"
+		hide  = false
+		title = "publications and media"
+
+    		# The images and thumbnails are stored under static/images
+    		[[params.portfolio.gallery]]
+    			image = "barrier1.png"
+    			thumb = "barrier1_thumb.png"
+    			title = "Preprint: Barriers and Crime"
+    			description = "Initial analysis of barrier locations and violent crime, available on [SocArXiv]() without restriction"
+    			
+    		[[params.portfolio.gallery]]
+    			image = "barrier2.png"
+    			thumb = "barrier2_thumb.png"
+    			title = "Media"
+    			description = "Our work was recently featured in a [St. Louis Post-Dispatch]() article on the barriers"
+
 
 	[params.recentposts]
 		hide  = true
