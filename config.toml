@@ -79,7 +79,7 @@ paginate = 10
     			image = "barrier2.png"
     			thumb = "barrier2_thumb.png"
     			title = "Media"
-    			description = "Our work was recently featured in a [St. Louis Post-Dispatch]() article on the barriers"
+    			description = "Our work was recently featured in a [insert media org] article on the barriers"
 
 
 	[params.recentposts]

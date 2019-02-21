@@ -1,5 +1,5 @@
 ---
-date: 2018-09-21
+date: 2019-02-21
 title: Barrier Locations
 weight: 21
 output:
@@ -28,17 +28,25 @@ leaflet(width = '100%', height = '450pt') %>%
         no = ifelse(
           test = allBarriers$Status == "closed",
           yes = "ios-close",
-          no = "ios-help")  
-      ),
+          no = ifelse(
+            test = allBarriers$Status == "developed" | allBarriers$Status == "redeveloped",
+            yes = "ios-close",
+            no = "ios-help"
+          )
+      )),
       iconColor = "black",  # the icon's colour
       markerColor = ifelse(
-        test = allBarriers$Status == "open",  # if this...
-        yes = "green",  # ...then colour blue
+        test = allBarriers$Status == "open",  
+        yes = "green",  
         no = ifelse(
-          test = allBarriers$Status == "closed",  # if this...
-          yes = "red",  # ...then colour lightblue
-          no = "lightgray"  # colour remaining schools (Ofsted rating RI, I, SW or SM)
-        )
+          test = allBarriers$Status == "closed",
+          yes = "red", 
+          no =  ifelse(
+            test = allBarriers$Status == "developed" | allBarriers$Status == "redeveloped",
+            yes = "orange",
+            no = "lightgray"
+          )
+        ) 
       )
     ),
     clusterOptions = markerClusterOptions(),
@@ -48,6 +56,31 @@ leaflet(width = '100%', height = '450pt') %>%
   )
 ```
 <p> </p>
+There are a total of 325 barriers identified on the map above:
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(janitor)
+library(dplyr)
+library(forcats)
+
+allBarriers %>%
+  mutate(Status = as.factor(Status)) %>%
+  mutate(Status = fct_recode(Status,
+    "Closed" = "closed",
+    "Open" = "open",
+    "Redeveloped" = "redeveloped",
+    "Developed" = "developed",
+    "Unknown" = "unknown"
+  )) %>% 
+  mutate(Status = fct_relevel(Status,
+    "Closed", "Open"
+  )) %>%
+  tabyl(Status) %>%
+  adorn_totals(where = "row") %>%
+  adorn_pct_formatting(digits = 2) %>%
+  knitr::kable()
+```
+
+Barriers marked as "redeveloped" existed before and were removed to make way for a redevelopment project. Barriers marked as "developed" are the result of redevelopment projects that fundamentally altered the streetscape. The list of these closures is *incomplete* at this time, as is the list of "open" barriers. We have focused, to date, on identifying currently closed barriers that fit our [definition](/background/).
 
 ## Download Barrier Data
 These location data [are available via GitHub](https://github.com/chris-prener/barriers-data) in four formats: 
