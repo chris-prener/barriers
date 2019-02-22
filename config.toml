@@ -73,13 +73,13 @@ paginate = 10
     			image = "barrier1.png"
     			thumb = "barrier1_thumb.png"
     			title = "Preprint: Barriers and Crime"
-    			description = "Initial analysis of barrier locations and violent crime, available on [SocArXiv]() without restriction"
+    			description = "Initial analysis of barrier locations and violent crime, available on <a href='https://osf.io/preprints/socarxiv/2wext/' target = '_blank'>SocArXiv</a> without restriction."
     			
     		[[params.portfolio.gallery]]
     			image = "barrier2.png"
     			thumb = "barrier2_thumb.png"
     			title = "Media"
-    			description = "Our work was recently featured in a [insert media org] article on the barriers"
+    			description = "Our work was recently featured in a <a href='#' target = '_blank'>[insert org name]</a> article on the barriers."
 
 
 	[params.recentposts]
