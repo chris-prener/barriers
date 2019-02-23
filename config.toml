@@ -73,7 +73,7 @@ paginate = 10
     			image = "barrier1.png"
     			thumb = "barrier1_thumb.png"
     			title = "Preprint: Barriers and Crime"
-    			description = "Initial analysis of barrier locations and violent crime, available on <a href='https://osf.io/preprints/socarxiv/2wext/' target = '_blank'>SocArXiv</a> without restriction."
+    			description = "Initial analysis of barrier locations and violent crime, available on <a href='https://osf.io/preprints/socarxiv/2wext/' target = '_blank'>SocArXiv</a> without restriction. Our analysis code and data are available on <a href='https://osf.io/sxuze/' target = '_blank'>Open Science Framework</a>."
     			
     		[[params.portfolio.gallery]]
     			image = "barrier2.png"
