@@ -1,0 +1,52 @@
+---
+date: 2019-06-11
+title: Barrier Fieldwork
+weight: 22
+output:
+  blogdown::html_page
+---
+
+## Current Fieldwork
+During Summer and Fall 2019, we're collecting data on barriers. This includes archival work identifying relevant Board of Aldermen bills as well as visits to barriers in our data set to collect data on their condition, construction materials, and to build a photographic data set. The map below is being used to guide fieldwork efforts. Green barriers are those we have previous checked in-person, while red and orange barriers still need in-person checks.
+
+<p> </p>
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(here)
+library(leaflet)
+library(sf)
+
+load(file = here("static", "allBarriers.rda"))
+
+checks <- filter(allBarriers, Status == "closed" | Status == "approved")
+
+leaflet(width = '100%', height = '450pt') %>% 
+  addProviderTiles(providers$CartoDB.Positron) %>% 
+  addAwesomeMarkers(
+    data = checks, 
+    icon = awesomeIcons(
+      library = "ion",
+      icon = ifelse(
+        test = checks$CheckType == "in-person" | checks$CheckType == "in-peson",
+        yes = "ios-checkmark", 
+        no = ifelse(
+          test = checks$CheckType == "google maps" | checks$CheckType == "google satellite",
+          yes = "ios-close",
+          no = "ios-help")
+      ),
+      iconColor = "black",  # the icon's colour
+      markerColor = ifelse(
+        test = checks$CheckType == "in-person" | checks$CheckType == "in-peson",
+        yes = "green", 
+        no = ifelse(
+          test = checks$CheckType == "google maps" | checks$CheckType == "google satellite",
+          yes = "red",
+          no = "orange")
+      )),
+    clusterOptions = markerClusterOptions(),
+    popup = paste("Barrier: ", checks$BarrierID, "<br>",
+                  "Check Type: ", checks$CheckType, "<br>",
+                  "Check Date: ", checks$BarrierCk, "<br>",
+                  "Description: ", checks$Descrip, "<br>"))
+```
+<p> </p>

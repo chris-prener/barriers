@@ -79,7 +79,7 @@ paginate = 10
     			image = "barrier2.png"
     			thumb = "barrier2_thumb.png"
     			title = "Media"
-    			description = "Our work was recently featured in a <a href='https://www.stltoday.com/news/local/crime-and-courts/to-make-st-louis-safer-hundreds-of-streets-were-closed/article_8b3b3042-db3c-59e5-919f-515aa6a0fe7e.html#tracking-source=home-top-story' target = '_blank'>St. Louis Post-Dispatch</a> article on the barriers."
+    			description = "Our work was recently featured in a <a href='https://www.stltoday.com/news/local/crime-and-courts/to-make-st-louis-safer-hundreds-of-streets-were-closed/article_8b3b3042-db3c-59e5-919f-515aa6a0fe7e.html#tracking-source=home-top-story' target = '_blank'>St. Louis Post-Dispatch</a> article on the barriers as well as on <a href='https://www.ksdk.com/video/news/local/streets-not-thru-and-not-safer/63-5982f641-43d3-445a-86fa-b46f73c709d2' target='_blank'>KMOV</a> and in <a href='https://www.citylab.com/transportation/2019/04/car-free-safe-streets-st-louis-map-vehicle-barriers-traffic/586501/' target='_blank'>CityLab</a>."
 
 
 	[params.recentposts]
@@ -105,6 +105,11 @@ paginate = 10
 	name = "barrier locations"
 	url  = "/barriers"
 	weight = 21
+	
+[[menu.main]]
+	name = "barrier fieldwork"
+	url  = "/fieldwork"
+	weight = 22	
 	
 [[menu.main]]
 	name = "research team"

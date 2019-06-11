@@ -2,48 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>&#39;Street Not Thru&#39;: St. Louis Barriers Project</title>
-    <link>https://chris-prener.github.io/barriers/</link>
+    <link>/barriers/</link>
     <description>Recent content on &#39;Street Not Thru&#39;: St. Louis Barriers Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://chris-prener.github.io/barriers/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/barriers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Background</title>
-      <link>https://chris-prener.github.io/barriers/background/</link>
+      <link>/barriers/background/</link>
       <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://chris-prener.github.io/barriers/background/</guid>
+      <guid>/barriers/background/</guid>
       <description>While most cities use a variety of measures to control traffic, including speed limits, one-way streets, stop signs, and traffic lights, cars remain generally free to make turns at intersections (as long as there are no signs preventing, for example, no left-hand turns). A &amp;ldquo;typical&amp;rdquo; intersection of two streets with two-way traffic looks something like this:  This configuration is what we will refer to as an &amp;ldquo;open&amp;rdquo; street grid, where traffic is generally un-restricted in terms of the ability to turn at intersections.</description>
     </item>
     
     <item>
       <title>Barrier Locations</title>
-      <link>https://chris-prener.github.io/barriers/barriers/</link>
+      <link>/barriers/barriers/</link>
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://chris-prener.github.io/barriers/barriers/</guid>
+      <guid>/barriers/barriers/</guid>
       <description>Interactive Map Use the map below to explore the locations of current (red) and former (green) barriers in St. Louis. The numbered map symbols indicate the total number of points being “clustered” together to make the map easier to read when zoomed out. You can click on them to zoom into that area and reveal individual barriers. If you find an intersection that is missing a barrier, or see a closed intersection that is now open, please let us know via email or by opening an issue on our GitHub page!</description>
     </item>
     
     <item>
+      <title>Barrier Fieldwork</title>
+      <link>/barriers/fieldwork/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/barriers/fieldwork/</guid>
+      <description>Current Fieldwork During Summer and Fall 2019, we’re collecting data on barriers. This includes archival work identifying relevant Board of Aldermen bills as well as visits to barriers in our data set to collect data on their condition, construction materials, and to build a photographic data set. The map below is being used to guide fieldwork efforts. Green barriers are those we have previous checked in-person, while red and orange barriers still need in-person checks.</description>
+    </item>
+    
+    <item>
       <title>Research Team</title>
-      <link>https://chris-prener.github.io/barriers/team/</link>
+      <link>/barriers/team/</link>
       <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://chris-prener.github.io/barriers/team/</guid>
+      <guid>/barriers/team/</guid>
       <description>Principal Investigators Christopher Prener, Ph.D. is an Assistant Professor in the Department of Sociology and Anthropology at Saint Louis University. In addition to spearheading the Streets Not Thru project, he is currently working on a book manuscript entitled Medicine at the Margins. The book examines the effect of neighborhood context and conditions on emergency medical services work, particularly with patients who have mental illnesses or substance use disorders. Chris is also part of a research team examining the effects of literacy on mental health service use and recovery.</description>
     </item>
     
     <item>
       <title>License</title>
-      <link>https://chris-prener.github.io/barriers/license/</link>
+      <link>/barriers/license/</link>
       <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://chris-prener.github.io/barriers/license/</guid>
+      <guid>/barriers/license/</guid>
       <description>Copyright &amp;copy; 2017-2018 Christopher G. Prener
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 This is a human-readable summary of (and not a substitute for) the license.
